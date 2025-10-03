@@ -242,3 +242,257 @@ img[src*="image-currency.jpg"] {
     color: white;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.public-sans-normal {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.public-sans-300 {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+.public-sans-400 {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.public-sans-700 {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+.digital-bank-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+button.request-invite {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: hsl(136, 64%, 51%);
+    color: hsl(0, 100%, 100%);
+    font-size: 1rem;
+}
+
+.digital-bank-hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+
+
+.digital-bank-hero-image {
+    background-image: url("images/bg-intro-desktop.svg");
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 250px;
+    margin-right: -120px;
+    margin-top: -165px;
+
+}
+
+.digital-bank-header-and-para {
+    padding: 100px;
+    margin: 80px 20px 20px 20px;
+
+}
+
+.digital-bank-header-and-para h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+.digital-bank-header-and-para p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+
+
+
+
+img[src*="image-mockups.png"] {
+    width: 700px;
+    height: 100%;
+    position: relative;
+}
+
+
+.digital-bank-header-and-para button {
+    margin-top: 20px;
+}
+
+.why-choose-digitalbank-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 150px;
+    gap: 40px;
+}
+
+.why-choose-digitalbank-header-and-para {
+    padding-right: 700px;
+    line-height: 1.8;
+}
+
+.why-choose-digitalbank-objective {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+
+.why-choose-digitalbank-objective h2 {
+    font-size: 1.5rem;
+}
+
+.why-choose-digitalbank-objective p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.digital-cards-header-and-para {
+    margin-top: 20px;
+}
+
+.why-choose-digitalbank-container {
+    background-color: hsl(220, 16%, 96%);
+}
+
+
+
+.latest-article-header-para-and-card {
+    padding: 100px 170px 50px 170px;
+}
+
+
+.article-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+
+
+img[src*="image-restaurant.jpg"] ,
+img[src*="image-plane.jpg"],
+img[src*="image-confetti.jpg"] {
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 280px;
+    height: 100%;
+}
+
+img[src*="image-currency.jpg"] {
+    width: 260px;
+    height: 100%;
+}
+
+
+.article-cards {
+    background-color: white;
+    box-shadow: 0px 1px 3px gray ;
+        border-radius: 10px;
+
+}
+
+.card-paragraph {
+    padding: 10px 20px 40px 20px
+}
+
+.card-paragraph  h2{
+    margin-top: 20px;
+}
+
+
+.card-paragraph  p{
+    margin-top: 10px;
+}
+
+
+.footer-container {
+    background-color: hsl(233, 26%, 24%);
+    padding: 300px 200px 100px 200px;
+    margin-top: 100px;
+}
+
+.digitalbank-and-socials {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+.socials {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links {
+    margin-top: 200px;
+    color: white;
+}
+
+
+.article-cards > .card-paragraph > h2 {
+    font-size: 1.2rem;
+}
+
+
+.name {
+    font-size: 0.8rem;
+}
