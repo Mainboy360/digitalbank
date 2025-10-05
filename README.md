@@ -11,9 +11,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 
-
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
